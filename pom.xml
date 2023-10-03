@@ -4,4 +4,15 @@
   <artifactId>cse</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>calculator</name>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>cse</artifactId>\
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
